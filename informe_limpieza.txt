@@ -1,0 +1,41 @@
+
+    Informe de Limpieza de Datos:
+    
+    1. Número de filas:
+       - Originales: 308
+       - Después de la limpieza: 170
+    
+    2. Problemas identificados y corregidos:
+       - Valores nulos en campos críticos: 194
+       - Fechas inválidas: 8
+       - Valores negativos: 59
+       - Inconsistencias en el cálculo del total: 144
+       - Outliers en campos numéricos: 5
+       - Filas duplicadas: 8
+    
+3. Estadísticas descriptivas de los datos limpios:
+   - Media:
+     - Cantidad: 10.33
+     - Precio Unitario: 23.52
+     - Total: 240.13
+   
+   - Mediana:
+     - Cantidad: 10.00
+     - Precio Unitario: 22.29
+     - Total: 181.35
+   
+   - Desviación Estándar:
+     - Cantidad: 5.56
+     - Precio Unitario: 13.33
+     - Total: 197.84
+    
+             cantidad  precio_unitario       total
+count  170.000000       170.000000  170.000000
+mean    10.329412        23.517235  240.125588
+std      5.578675        13.374120  198.419618
+min      1.000000         1.500000    1.500000
+25%      5.250000        11.220000   75.982500
+50%     10.000000        22.285000  181.355000
+75%     15.000000        34.587500  368.342500
+max     20.000000        49.340000  829.600000
+    
